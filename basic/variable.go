@@ -34,8 +34,8 @@ func main() {
 	fmt.Println(c)
 	fmt.Println(d)
 
-	var ageCity, city = 55, "Madrid"
-	country, ageCountry := "Spain", 78
+	var ageCity, city = 55, "Madrid"   // without declare data type
+	country, ageCountry := "Spain", 78 // simplify
 
 	fmt.Println(ageCity)
 	fmt.Println(city)
