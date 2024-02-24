@@ -3,6 +3,10 @@ package main
 import "fmt"
 
 func main() {
+	var anak string
+	anak = "mesi"
+	fmt.Println(anak)
+
 	//====================================== string
 	fmt.Println(`string 1`) // use ` `
 	fmt.Println("string 2") // use " " and cannot use ' '
